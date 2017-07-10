@@ -10,3 +10,7 @@ function draw() {
     ellipse(mouseX,mouseY,25,25);
     
 }
+
+function mousePressed(){
+    background(0);
+}
