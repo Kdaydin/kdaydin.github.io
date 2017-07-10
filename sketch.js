@@ -18,6 +18,9 @@ function draw() {
     green_val+=random(20);
     blue_val+=random(30);
     
+    line(400,350,random(800),random(700));
+    storke(red_val%255);
+    
 }
 
 function mousePressed(){
